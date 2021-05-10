@@ -23,7 +23,6 @@ html{
     color: var(--clr-txt);
 }
 
-
 .container{
     width: 1170px;
     margin-right: auto;
@@ -42,6 +41,11 @@ h2 {
 
 a {
     text-decoration: none;
+}
+
+a.link {
+    text-decoration: underline;
+    color: var(--clr-txt);
 }
 
 /* BUTTON */
@@ -125,15 +129,23 @@ li > a{
 #about{
     display: flex;
     background-color: #FDE2E4;
+    padding: 60px 208px 86px 135px;
+    border: 1px solid red;
 }
 
 .about-txt{
     width: 100%;
+    font-size: 1.25rem;
+}
+
+.about-subtitle {
+    margin-top: 32px;
 }
 
 .about-graphics{
     width: 100%;
 }
+
 
 /* PROJECTS
 ============== */
