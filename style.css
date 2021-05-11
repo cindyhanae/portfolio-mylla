@@ -10,7 +10,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-size: 16px;
+    font-size: 18px;
  }
 
 body, 
@@ -32,11 +32,11 @@ html{
 
 /* TIPOGRAFIA */
 h1 {
-    font-size: 3.75rem;
+    font-size: 3.33rem;
 }
 
 h2 {
-    font-size: 1.62rem;
+    font-size: 1.11rem;
 }
 
 a {
@@ -95,7 +95,7 @@ nav > ul.header-nav > li {
 
 li > a{
     color: var(--clr-txt);
-    font-size: 18px;
+    font-size: 0.88rem;
     letter-spacing: 0.1rem;
     margin-left: 32px;
 
@@ -121,7 +121,7 @@ li > a{
 
 .button a{
     color: #AB8F91;
-    font-size: 18px;
+    font-size: 1rem;
 }
 
 /* ABOUT
@@ -138,18 +138,24 @@ li > a{
     margin-right: 130px;
 }
 
-.about-subtitle {
-    margin-top: 32px;
+.about-txt > p{
+    font-size: 1.11rem;
 }
 
-.chart-title{
-    clear: both;
-    padding-top: 80px;
+.about-subtitle {
+    margin-top: 32px;
+    font-size: 1.33rem;
 }
 
 .about-chart{
     width: 100%;
     margin: 110px 0px;
+}
+
+.chart-title{
+    clear: both;
+    padding-top: 80px;
+    font-size: 1.33rem;
 }
 
 .about-chart .box {
@@ -164,7 +170,7 @@ li > a{
     height: 110px;
     margin: 10px 10px;
     text-align: center;
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 110px;
 }
 
@@ -209,6 +215,7 @@ div.projects-title > p{
 
 div.project-txt > h2 {
     padding-bottom: 24px;
+    font-size: 1.44rem;
 }
 
 div.project-txt > p {
