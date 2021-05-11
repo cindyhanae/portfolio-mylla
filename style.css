@@ -176,8 +176,9 @@ li > a{
 
 /* PROJECTS
 ============== */
-.project{
-    display: flex;
+#projects,
+#personal{
+    padding: 60px 135px 86px 135px;
 }
 
 #projects{
@@ -187,6 +188,34 @@ li > a{
 #personal{
     background-color: #FDE2E4;
 }
+
+.projects-title {
+    text-align: center;
+}
+
+div.projects-title > p{
+    font-size: 20px;
+    padding-bottom: 60px;
+}
+
+.project{
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.project-img {
+    margin-right: 30px;
+}
+
+div.project-txt > h2 {
+    padding-bottom: 24px;
+}
+
+div.project-txt > p {
+    margin: 0;
+}
+
+
 
 /* FOOTER
 ============== */
