@@ -21,6 +21,7 @@ html{
     height: 100vh;
     font-family: var(--ff-txt);
     color: var(--clr-txt);
+    overflow-x: hidden;
 }
 
 .container{
@@ -228,4 +229,30 @@ div.project-txt > p {
 ============== */
 #footer{
     background-color: #FFF1E6;
+    text-align: center;
+    padding-top: 60px;
 }
+
+#footer p {
+    font-size: 1.11rem;
+}
+
+#dados{
+    margin-top: 60px;
+}
+
+#dados > * {
+    margin: 0px;
+}
+
+a > i{
+    font-size: 1.5rem;
+    color: var(--clr-txt);
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+.local{
+    margin: 100px 0 13px 0;
+}
+
