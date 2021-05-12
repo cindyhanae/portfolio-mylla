@@ -207,11 +207,21 @@ div.projects-title > p{
 
 .project{
     display: flex;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
 }
 
 .project-img {
     margin-right: 30px;
+    flex-basis: 100%;
+}
+
+.project-img > img {
+    width: 100%;
+    height: auto;
+}
+
+.project-txt{
+    flex-basis: 100%;
 }
 
 div.project-txt > h2 {
