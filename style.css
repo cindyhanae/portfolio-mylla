@@ -49,6 +49,10 @@ a.link {
     color: var(--clr-txt);
 }
 
+ul.header-nav li a:hover{
+    color: var(--clr-txt);
+}
+
 /* BUTTON */
 .button{
     background-color: var(--clr-bg2);
@@ -130,13 +134,13 @@ li > a{
 #about{
     display: flex;
     background-color: #FDE2E4;
-    padding: 60px 208px 86px 135px;
+    padding: 60px 130px 80px 130px;
 }
 
 .about-txt{
     width: 100%;
     font-size: 1.25rem;
-    margin-right: 130px;
+    margin-right: 80px;
 }
 
 .about-txt > p{
@@ -185,7 +189,7 @@ li > a{
 ============== */
 #projects,
 #personal{
-    padding: 60px 135px 86px 135px;
+    padding: 60px 130px 60px 130px;
 }
 
 #projects{
@@ -213,6 +217,7 @@ div.projects-title > p{
 .project-img {
     margin-right: 30px;
     flex-basis: 100%;
+    padding-bottom: 20px;
 }
 
 .project-img > img {
