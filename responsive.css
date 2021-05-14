@@ -1,4 +1,8 @@
 @media (max-width: 1020px) and (min-width: 828px){
+    .header-content{
+        margin: 0 20px;
+    }
+
     #about{
         flex-direction: column;
         padding: 32px 17px 50px 17px;
