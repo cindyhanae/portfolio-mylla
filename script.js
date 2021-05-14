@@ -1,3 +1,12 @@
+// HAMBURGUER
+const hamburguer = document.querySelector('#hamburguer')
+const navUl = document.querySelector('#nav-ul')
+
+hamburguer.addEventListener('click', () => {
+  navUl.classList.toggle('show')
+})
+
+
 // PIE CHART
 $(function() {
     $('.chart').easyPieChart({

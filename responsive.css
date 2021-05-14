@@ -1,4 +1,4 @@
-@media (max-width: 1020px) and (min-width: 768px){
+@media (max-width: 1020px) and (min-width: 828px){
     #about{
         flex-direction: column;
         padding: 32px 17px 50px 17px;
@@ -15,14 +15,23 @@
     
 }
 
-@media (max-width: 767px){
-    *{
-        font-size: 18px;
+@media (max-width: 827px){
+    .header-content{
+        margin: 0 15px;
     }
-    
-    /* a.link{
-        font-size: 1.38rem;
-    } */
+    .header-nav{
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--clr-bg1);
+    }
+    .hamburguer{
+        display: block;
+    }
+    .header-nav.show{
+        display: flex;
+    }
 
     #hero{
         padding: 100px 16px 100px 16px;
