@@ -37,6 +37,11 @@
         display: flex;
     }
 
+    li > a{
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+
     #hero{
         padding: 100px 16px 100px 16px;
     }

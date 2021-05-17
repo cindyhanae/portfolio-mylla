@@ -94,16 +94,13 @@ function plusSlides(n) {
   var slideIndex3 = 1;
 
   document.addEventListener("DOMContentLoaded", function() {
-    console.log("first DOMContentLoaded event");
     showSlides(slideIndex);
   });
 
   document.addEventListener("DOMContentLoaded", function() {
-    console.log("second DOMContentLoaded event");
     showSlides2(slideIndex2);
   });
 
   document.addEventListener("DOMContentLoaded", function() {
-    console.log("third DOMContentLoaded event");
     showSlides3(slideIndex3);
   });
