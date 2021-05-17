@@ -1,10 +1,19 @@
 // HAMBURGUER
-const hamburguer = document.querySelector('#hamburguer')
-const navUl = document.querySelector('#nav-ul')
+const navSlide = () => {
+  const burguer = document.querySelector('.burguer')
+  const nav = document.querySelector('.nav-list')
 
-hamburguer.addEventListener('click', () => {
-  navUl.classList.toggle('show')
-})
+  // quando clica no burguer adiciona .nav-active em nav e .change em burguer
+  burguer.addEventListener('click', () => {
+    nav.classList.toggle('nav-active')
+
+    // animação hamburguer
+    burguer.classList.toggle('change')
+  })
+}
+
+navSlide()
+
 
 
 // PIE CHART

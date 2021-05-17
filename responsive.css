@@ -23,18 +23,25 @@
     .header-content{
         margin: 0 15px;
     }
-    .header-nav{
-        display: none;
+    
+    .burguer{
+        display: block;
+        margin: 25px 10px;
+        cursor: pointer;
+    }
+
+    .nav-list{
+        position: absolute;
+        right: 0;
+        top: 4rem;
+        height: 920%;
         width: 100%;
+        background-color: var(--clr-bg1);
+        display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: var(--clr-bg1);
-    }
-    .hamburguer{
-        display: block;
-    }
-    .header-nav.show{
-        display: flex;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
     }
 
     #hero{
@@ -82,5 +89,4 @@
     .project{
         flex-direction: column;
     }
-
 }

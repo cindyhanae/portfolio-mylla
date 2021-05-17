@@ -42,10 +42,6 @@ a.link {
     color: var(--clr-txt);
 }
 
-ul.header-nav li a:hover{
-    color: var(--clr-txt);
-}
-
 /* BUTTON */
 .button{
     background-color: var(--clr-bg2);
@@ -85,9 +81,10 @@ ul.header-nav li a:hover{
     line-height: 4.37rem;
 }
 
-nav > ul.header-nav > li {
+nav > ul.nav-list > li {
     display: inline;
     line-height: 4.37rem;
+    list-style: none;
 }
 
 li > a{
@@ -95,34 +92,46 @@ li > a{
     font-size: 1rem;
     letter-spacing: 0.1rem;
     margin-left: 32px;
-
+    border-radius: 5px;
+    padding: 15px;
+    transition: all 0.3s ease-in;
 } 
 
-nav{
-    display: flex;
-    flex-wrap: wrap;
+li > a:hover{
+    background-color: #f8e2d1;
+    color: var(--clr-txt);
 }
 
 /* HAMBURGUER
 ===============
  */
- .hamburguer{
-     background-color: transparent;
-     border: 0;
-     color: var(--clr-txt);
-     height: 10px;
-     cursor: pointer;
-     display: none;
- }
+.burguer{
+    display: none;
+}
 
- .hamburguer:focus{
-     outline: none;
- }
+.burguer div {
+    width: 25px;
+    height: 3px;
+    background-color: var(--clr-txt);
+    margin: 5px;
+    transition: all 0.3s ease;
+}
 
- i.fas{
-     font-size: 1.2rem;
- }
+.nav-list.nav-active{
+    transform: translateX(0%);
+}
 
+.change .line1{
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.change .line2{
+    opacity: 0;
+}
+.change .line3{
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+ 
 /* HERO
 =============== */
 
