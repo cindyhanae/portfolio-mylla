@@ -92,7 +92,7 @@ nav > ul.header-nav > li {
 
 li > a{
     color: var(--clr-txt);
-    font-size: 0.88rem;
+    font-size: 1rem;
     letter-spacing: 0.1rem;
     margin-left: 32px;
 
@@ -150,7 +150,7 @@ nav{
 #about{
     display: flex;
     background-color: #FDE2E4;
-    padding: 60px 130px 80px 130px;
+    padding: 40px 130px;
 }
 
 .about-txt{
@@ -205,7 +205,7 @@ nav{
 ============== */
 #projects,
 #personal{
-    padding: 60px 130px 60px 130px;
+    padding: 40px 130px;
 }
 
 #projects{
@@ -216,6 +216,15 @@ nav{
     background-color: #FDE2E4;
 }
 
+.project{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.last-project{
+    margin-bottom: 40px
+}
+
 .projects-title {
     text-align: center;
 }
@@ -223,11 +232,6 @@ nav{
 div.projects-title > p{
     font-size: 20px;
     padding-bottom: 60px;
-}
-
-.project{
-    display: flex;
-    margin-bottom: 100px;
 }
 
 .project-img {
@@ -261,7 +265,7 @@ div.project-txt > p {
 #footer{
     background-color: #FFF1E6;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 40px;
 }
 
 #footer p {
