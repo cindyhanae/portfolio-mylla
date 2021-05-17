@@ -151,6 +151,7 @@ nav{
     display: flex;
     background-color: #FDE2E4;
     padding: 40px 130px;
+    scroll-margin: 50px;
 }
 
 .about-txt{
@@ -206,6 +207,7 @@ nav{
 #projects,
 #personal{
     padding: 40px 130px;
+    scroll-margin: 50px;
 }
 
 #projects{
