@@ -1,3 +1,17 @@
+@media (min-width: 1408px){
+    .about-chart{
+        width: 500px;
+    }
+
+    .about-txt{
+        width: 820px;
+    }
+
+    .chart-title{
+        padding-top: 0px
+    }
+}
+
 @media (max-width: 1020px) and (min-width: 828px){
     .header-content{
         margin: 0 20px;
@@ -16,10 +30,19 @@
     .project{
         flex-direction: column;
     }
+
+    .about-chart{
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    div#circle-chart > h2.chart-title{
+        text-align: center; 
+    }
     
 }
 
-@media (max-width: 827px){
+@media (max-width: 827px) and (min-width: 415px){
     .header-content{
         margin: 0 15px;
     }
@@ -75,10 +98,94 @@
         padding-top: 50px;
         text-align: start;
     }
-    
+
     .about-chart{
-        margin:0px;
-        padding: 0px;
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    div#circle-chart > h2.chart-title{
+        text-align: center; 
+    }
+
+    #projects,
+    #personal{
+        padding: 30px 16px 30px 17px;
+    }
+
+    .project{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 414px){
+    h1{
+        font-size: 2rem;
+    }
+
+    .header-content{
+        margin: 0 15px;
+    }
+    
+    .burguer{
+        display: block;
+        margin: 25px 10px;
+        cursor: pointer;
+    }
+
+    .nav-list{
+        position: absolute;
+        right: 0;
+        top: 4rem;
+        height: 920%;
+        width: 100%;
+        background-color: var(--clr-bg1);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+
+    #hero{
+        padding: 100px 16px 100px 16px;
+    }
+
+    .button{
+        min-width: 95%;
+    }
+
+    .button > a{
+        /* font-size: 1.38rem; */
+    }
+
+    #about{
+        flex-direction: column;
+        padding: 32px 25px 50px 17px;
+    }
+
+    .about-txt p{
+        /* font-size: 1.38rem; */
+    }
+
+    h2.about-subtitle {
+        /* font-size: 2rem; */
+        margin-top: 70px;
+    }
+
+    .chart-title{
+        /* font-size: 2rem; */
+        padding-top: 50px;
+        text-align: start;
+    }
+
+    .about-chart{
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    div#circle-chart > h2.chart-title{
+        text-align: center; 
     }
 
     #projects,
