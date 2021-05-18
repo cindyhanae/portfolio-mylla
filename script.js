@@ -17,19 +17,11 @@ navSlide()
 
 
 // PIE CHART
-let element = document.querySelector('.chart');
-    new EasyPieChart(element, {
-        // your options goes here
-    });
-
-    // instantiate the plugin
-    var chart = new EasyPieChart(element, options);
-    // update
-    chart.update(40);
-    // disable animation
-    chart.disableAnimation();
-    // enable animation
-    chart.enableAnimation();
+$(function() {
+  $('.chart').easyPieChart({
+      //your options goes here
+  });
+});
 
 
 
