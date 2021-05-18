@@ -302,3 +302,12 @@ a > i{
     margin: 100px 0 13px 0;
 }
 
+/* FADE IN */
+.fade-in{
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear{
+    opacity: 1;
+}

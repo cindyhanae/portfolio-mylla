@@ -17,11 +17,20 @@ navSlide()
 
 
 // PIE CHART
-$(function() {
-    $('.chart').easyPieChart({
-        //your configuration goes here
+let element = document.querySelector('.chart');
+    new EasyPieChart(element, {
+        // your options goes here
     });
-});
+
+    // instantiate the plugin
+    var chart = new EasyPieChart(element, options);
+    // update
+    chart.update(40);
+    // disable animation
+    chart.disableAnimation();
+    // enable animation
+    chart.enableAnimation();
+
 
 
 
@@ -116,3 +125,26 @@ function plusSlides(n) {
     console.log("third DOMContentLoaded event");
     showSlides3(slideIndex3);
   });
+
+
+  // INTERSECTION OBSERVER - FADE-IN
+  const faders = document.querySelectorAll('.fade-in');
+  const appearOptions = {
+    threshold: 1
+  };
+
+  const appearOnScroll = new IntersectionObserver(function(entries, appearOnScroll){
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) {
+        return;
+      } else {
+        entry.target.classList.add('appear')
+        appearOnScroll.unobserve(entry.target)
+      }
+    })
+  }, 
+  appearOptions);
+
+  faders.forEach(fader => {
+    appearOnScroll.observe(fader)
+  })
