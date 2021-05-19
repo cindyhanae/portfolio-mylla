@@ -140,3 +140,13 @@ function plusSlides(n) {
   faders.forEach(fader => {
     appearOnScroll.observe(fader)
   })
+
+
+  // FADE-IN HERO
+  function fadeHero(){
+    const hero = document.querySelector('.fade-hero')
+
+    hero.classList.add('fade')
+  }
+
+  fadeHero()

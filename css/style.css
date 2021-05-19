@@ -154,6 +154,14 @@ li > a:hover{
     font-size: 1rem;
 }
 
+.fade-hero{
+    opacity: 0;
+    transition: opacity 0.5s linear;
+}
+
+.fade-hero.fade{
+    opacity: 1;
+}
 /* ABOUT
 ========== */
 #about{
