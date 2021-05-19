@@ -147,6 +147,18 @@ li > a:hover{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    animation-name: fade;
+    animation-duration: 1s;
+}
+
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
 }
 
 .button a{
@@ -154,14 +166,6 @@ li > a:hover{
     font-size: 1rem;
 }
 
-.fade-hero{
-    opacity: 0;
-    transition: opacity 0.5s linear;
-}
-
-.fade-hero.fade{
-    opacity: 1;
-}
 /* ABOUT
 ========== */
 #about{
