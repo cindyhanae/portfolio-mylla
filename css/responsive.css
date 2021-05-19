@@ -10,6 +10,10 @@
     .chart-title{
         padding-top: 0px
     }
+
+    .chart-title2{
+        padding-top: 50px;
+    }
 }
 
 @media (max-width: 1020px) /*and (min-width: 828px)*/{
@@ -107,6 +111,10 @@
     .about-chart{
         width: 300px;
         margin: 0 auto;
+    }
+
+    li > a {
+        margin-right: 50px;
     }
 
 }
