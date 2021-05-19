@@ -117,4 +117,8 @@
         margin-right: 50px;
     }
 
+    .last{
+        display: none;
+    }
+
 }
