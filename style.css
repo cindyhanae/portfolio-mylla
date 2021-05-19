@@ -170,7 +170,7 @@ li > a:hover{
 }
 
 .about-txt > p{
-    font-size: 1.11rem;
+    font-size: 1rem;
 }
 
 .about-subtitle {
@@ -253,7 +253,7 @@ div.projects-title > p{
 
 .project-img > img {
     width: 100%;
-    height: auto;
+    height: 90%;
 }
 
 .project-txt{
