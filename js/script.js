@@ -2,13 +2,14 @@
 const navSlide = () => {
   const burguer = document.querySelector('.burguer')
   const nav = document.querySelector('.nav-list')
+  const header = document.querySelector('#header')
 
   // quando clica no burguer adiciona .nav-active em nav e .change em burguer
-  burguer.addEventListener('click', () => {
+  header.addEventListener('click', () => {
     nav.classList.toggle('nav-active')
 
     // animação hamburguer
-    burguer.classList.toggle('change')
+    burguer.classList.toggle('change')  
   })
 }
 
