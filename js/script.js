@@ -4,7 +4,7 @@ const navSlide = () => {
   const nav = document.querySelector('.nav-list')
   const header = document.querySelector('#header')
 
-  // quando clica no burguer adiciona .nav-active em nav e .change em burguer
+  // quando clica no #header adiciona .nav-active em nav e .change em burguer
   header.addEventListener('click', () => {
     nav.classList.toggle('nav-active')
 
