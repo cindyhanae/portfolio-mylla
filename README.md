@@ -1,5 +1,5 @@
 <h1>Portfolio Mylla Sasaki</h1>
-<p>Portfolio developed for a client with the collaboration on the design from <a href="http://renanmartinelli.com/" target="_blank">Renan Martinelli</a>.</p>
+<p>Portfolio developed for a client with design collaboration from <a href="http://renanmartinelli.com/" target="_blank">Renan Martinelli</a>.</p>
 <p><a href="https://www.myllasasaki.com/" target="_blank">Link to app</a></p>
 
 <h2>Table of contents</h2>
@@ -16,11 +16,12 @@
  <li>JavaScript</li>
  <li>Google fonts</li>
  <li>Easy pie chart</li>
+ <li>Sliders</li>
  <li>Key frames</li>
 </ul>
 
 <h2 id="description">Description</h2>
-<p>This portfolio was developed for a game developer client. I used vanilla JS for the hambuger menu and sliders, with event listeners and intersection observer. For the pie chart, I used <a href="https://github.com/rendro/easy-pie-chart" target="_blank">Easy pie chart</a>.</p>
+<p>This portfolio was developed for a game developer client. I used vanilla JS for the hambuger menu and sliders, with event listener and intersection observer. For the pie chart, I used <a href="https://github.com/rendro/easy-pie-chart" target="_blank">Easy pie chart</a>.</p>
 
 <h2 id="status">Status</h2>
 Finished :heavy_check_mark:
